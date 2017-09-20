@@ -201,17 +201,13 @@
 		/*End_c8o_AppConstructor*/
 /*Begin_c8o_AppInitialization*/
             
-            /*if(navigator["connection"] != undefined){
-                this.nav.setRoot(DetailsNewsPage, null, null, null);
-            }
-            
-            //endtest
             let initialConnectionType = "Unknown";
             if(navigator["connection"] != undefined){
                 initialConnectionType = navigator["connection"].type;
-            }*/
+            }
+            
             //if we are in browser mode ...
-            //if(initialConnectionType == "Unknown" || initialConnectionType != navigator["connection"].NONE){
+            if(initialConnectionType == "Unknown" || initialConnectionType != navigator["connection"].NONE){
             this.c8o.log.info("####################\n endpoint is" + this.c8o.endpoint);
             this.c8o.log.info("####################\n endpointConvertigo is" + this.c8o.endpointConvertigo);
                 this.c8o.callJson("MonMobile.Login")
@@ -233,11 +229,37 @@
                 })
                 .fail((err:any, params: any)=>{
                     console.log(err);
+                    this.nav.setRoot(TabsPage, null, null, null);
                 });
-            /*}
+            }
             else{
                 this.nav.setRoot(TabsPage, null, null, null);
-            }*/
+            }
+            
+            document.addEventListener("offline", () => {
+                
+            }, false);
+            document.addEventListener("online", () => {
+                this.c8o.callJson("MonMobile.Login")
+                .then((response: any, parameters: Object)=>{
+                    this.c8o.log.info('logged');
+                    return this.c8o.callJson("fs://fs_monmobile.sync", "continuous", true);
+                })
+                .then((response: any, parameters: Object)=>{
+                    this.c8o.log.info('db synced');
+                    return null;
+                })
+                .progress((progress:any)=>{
+                    //storeResponseForView(view :any, requestable: string, data: any, navParams: any, didEnter: any, didLeave: any) {
+                    console.log(progress);
+                })
+                .fail((err:any, params: any)=>{
+                    ;
+                    console.log(err);
+                });
+            }, false);
+
+
             
 			/*End_c8o_AppInitialization*/
 /*Begin_c8o_AppFunction*/
@@ -650,6 +672,7 @@ $font-path: "../assets/fonts";
 
 $colors: (
         primary:    #387ef5,
+        sncf: 		#009AA6,
         secondary:  #32db64,
         danger:     #f53d3d,
         light:      #f4f4f4,

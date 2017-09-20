@@ -17,6 +17,7 @@ import { MyApp } 				                                              from './app.c
 import {Transfer, TransferObject} from '@ionic-native/transfer';
 import {File} from '@ionic-native/file';
 import { FileOpener } from '@ionic-native/file-opener';
+import { StreamingMedia } from '@ionic-native/streaming-media';
 /*=c8o_PagesImport*/
 
 
@@ -53,6 +54,7 @@ export const deepLinkConfig: DeepLinkConfig = {
       TransferObject,
       File,
       FileOpener,
+      StreamingMedia,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

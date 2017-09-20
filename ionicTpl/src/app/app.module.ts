@@ -14,6 +14,9 @@ import { C8o }                                                                fr
 import { C8oRouter } 			                                              from 'c8ocaf';
 
 import { MyApp } 				                                              from './app.component';
+import {Transfer, TransferObject} from '@ionic-native/transfer';
+import {File} from '@ionic-native/file';
+import { FileOpener } from '@ionic-native/file-opener';
 /*=c8o_PagesImport*/
 
 
@@ -46,6 +49,10 @@ export const deepLinkConfig: DeepLinkConfig = {
     StatusBar,
     C8o,
     C8oRouter,
+      Transfer,
+      TransferObject,
+      File,
+      FileOpener,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

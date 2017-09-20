@@ -31,7 +31,10 @@
     "@agm/core": "1.0.0-beta.0",
     "ng2-charts":"1.6.0",
     "c8osdkangular": "latest",
-    "c8ocaf": "latest"
+    "c8ocaf": "latest",
+	"@ionic-native/file": "4.2.1",
+	"@ionic-native/transfer": "3.14.0",
+	"@ionic-native/file-opener": "4.2.1"
   },
   "devDependencies": {
 	"@ionic/app-scripts": "2.1.3",

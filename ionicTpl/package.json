@@ -35,7 +35,8 @@
 	"@ionic-native/file": "4.2.1",
 	"@ionic-native/transfer": "3.14.0",
 	"@ionic-native/file-opener": "4.2.1",
-    "@ionic-native/streaming-media" : "4.2.1"
+    "@ionic-native/streaming-media" : "4.2.1",
+    "@ionic-native/social-sharing" : "4.2.1"
   },
   "devDependencies": {
 	"@ionic/app-scripts": "2.1.3",

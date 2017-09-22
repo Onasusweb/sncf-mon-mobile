@@ -111,11 +111,10 @@ export class MyApp {
             /**
              * Then we finalize initialization
              */
-            this.c8o.finalizeInit();
-
-            /*Begin_c8o_AppInitialization*/
-            /*End_c8o_AppInitialization*/
-
+            this.c8o.finalizeInit().then(()=>{
+                /*Begin_c8o_AppInitialization*/
+                /*End_c8o_AppInitialization*/
+            });
         });
 
     }

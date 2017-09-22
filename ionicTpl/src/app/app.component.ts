@@ -90,7 +90,8 @@ export class MyApp {
         settings
             .setLogRemote(true)
             .setLogC8o(true)
-            .setLogLevelLocal(C8oLogLevel.DEBUG);
+            .setLogLevelLocal(C8oLogLevel.DEBUG)
+            .setTimeout(120000);
 
         /**
          * Then we assign C8oSettings to our c8o Object with the init method

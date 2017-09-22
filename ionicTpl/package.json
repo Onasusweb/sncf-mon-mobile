@@ -39,7 +39,7 @@
     "@ionic-native/social-sharing" : "4.2.1"
   },
   "devDependencies": {
-	"@ionic/app-scripts": "2.1.3",
+	"@ionic/app-scripts": "2.1.4",
     "typescript": "2.3.4"
   },
   "description": "MyApp: An Ionic project",

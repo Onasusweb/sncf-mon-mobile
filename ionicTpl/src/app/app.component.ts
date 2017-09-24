@@ -90,7 +90,7 @@ export class MyApp {
         settings
             .setLogRemote(true)
             .setLogC8o(true)
-            .setLogLevelLocal(C8oLogLevel.DEBUG)
+            .setLogLevelLocal(C8oLogLevel.TRACE)
             .setTimeout(120000);
 
         /**
@@ -107,7 +107,7 @@ export class MyApp {
 		/*End_c8o_AppConstructor*/
 		   
         platform.ready().then(() => {
-            statusBar.styleDefault();
+            statusBar.backgroundColorByHexString('#009AA6');
             /**
              * Then we finalize initialization
              */

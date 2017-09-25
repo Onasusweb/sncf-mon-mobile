@@ -20,7 +20,7 @@
 
 	<author href="$(ApplicationAuthorWebsite)$" email="$(ApplicationAuthorEmail)$">$(ApplicationAuthorName)$</author>
 	 
-	<engine name="$(CordovaPlatform)$" spec="6.2.3" />
+	<engine name="$(CordovaPlatform)$" spec="6.1.2" />
 	
 	<!--  Startup page is FlashUpdate  -->
 	<content src="index-fu.html" />

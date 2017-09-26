@@ -150,14 +150,8 @@
 		<preference name="android-minSdkVersion" value="16" />
 		<preference name="BackupWebStorage" value="none" />
 		<preference name="StatusBarStyle" value="default" />
-		<preference name="SplashScreen" value="screen" />
 		<preference name="orientation" value="default" />
-		<preference name="SplashMaintainAspectRatio" value="true" />
-		<preference name="FadeSplashScreenDuration" value="300" />
-		<preference name="ShowSplashScreenSpinner" value="false" />
-		<preference name="AutoHideSplashScreen" value="false" />
 		<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-		<preference name="SplashScreenDelay" value="3000" />
 	
 	<!-- Expose access to all URIs, including the file and http protocols -->
 	<allow-navigation href="*" />

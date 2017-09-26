@@ -92,6 +92,7 @@ export class MyApp {
             .setLogC8o(true)
             .setLogLevelLocal(C8oLogLevel.TRACE)
             .setTimeout(120000);
+            //.setEndPoint("https://mb.convertigo.net/cems/projects/MonMobile");
 
         /**
          * Then we assign C8oSettings to our c8o Object with the init method

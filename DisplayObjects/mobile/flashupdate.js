@@ -209,7 +209,7 @@ var F = {
 						}
 						
 						F.env.webLocalBase = F.env.webLocalBase.replace(F.reDoubleSlash, "$1$2").replace(F.reLastSlash, "");
-
+						//here
 						F.env.localBase = F.env.platform != "windows" ?
 							F.env.localBase.replace(F.reDoubleSlash, "$1$2").replace(F.reLastSlash, "") :
 							F.env.webLocalBase;
@@ -219,6 +219,7 @@ var F = {
 						} else {
 							F.hasLocal();
 						}
+						
 					});
 				});
 			} catch (err) {
@@ -314,8 +315,15 @@ var F = {
 				}
 				
 				F.copyCordovaFiles(filesToCopy, function () {
+					var localbase = F.env.webLocalBase;
 					F.debug("all cordova files writen");
-					window.location.href = F.env.webLocalBase + "/index-fu.html";				
+					if(F.env.platform == "ios"){
+						console.log("Platform is ios...");
+						console.log("initial localBase is: \n" + F.env.localBase);
+						localbase = localbase.replace("file:///", "http://localhost:8080/");
+						console.log("modified localBase is: \n" + localbase);
+					}
+					window.location.href = localbase + "/index-fu.html";				
 				});
 			}
 		});

@@ -2,3 +2,5 @@ _private/
 .project/
 temp/
 .idea/
+.settings/org.eclipse.wst.common.project.facet.core.xml
+DisplayObjects/ipaBuilder/

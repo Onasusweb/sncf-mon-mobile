@@ -50,7 +50,8 @@
 	<!-- Mandatory preferences for FlashUpdate service -->
 	<preference name="iosPersistentFileLocation" value="Library" />        
         
-        <icon height="57" src="res/icon/icon.png" width="57" />
+        <!--
+		<icon height="57" src="res/icon/icon.png" width="57" />
         <icon height="114" src="res/icon/icon@2x.png" width="114" />
         <icon height="40" src="res/icon/icon-40.png" width="40" />
         <icon height="80" src="res/icon/icon-40@2x.png" width="80" />
@@ -80,6 +81,8 @@
         <splash height="1024" src="res/splash/Default-Portrait~ipad.png" width="768" />
         <splash height="960" src="res/splash/Default@2x~iphone.png" width="640" />
         <splash height="480" src="res/splash/Default~iphone.png" width="320" />
+		
+		-->
 				  
 		
 	<!-- EndIcons -->

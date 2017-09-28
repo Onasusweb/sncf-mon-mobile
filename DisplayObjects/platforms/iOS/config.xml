@@ -136,19 +136,16 @@
 			<variable name="XWALK_MODE" value="embedded" />
 			<variable name="XWALK_MULTIPLEAPK" value="true" />
 		</plugin>
-		<plugin name="cordova-plugin-wkwebview-engine" spec="https://github.com/ionic-team/cordova-plugin-wkwebview-engine.git" />
 		<plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
 		<preference name="webviewbounce" value="false" />
-		<preference name="UIWebViewBounce" value="false" />
 		<preference name="DisallowOverscroll" value="true" />
 		<preference name="android-minSdkVersion" value="16" />
 		<preference name="BackupWebStorage" value="none" />
 		<preference name="StatusBarStyle" value="default" />
 		<preference name="orientation" value="default" />
-		<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
 	
-	<!-- Expose access to all URIs, including the file and http protocols -->
 	<allow-navigation href="*" />
+	<!-- Expose access to all URIs, including the file and http protocols -->
 	<allow-intent href="*" />
 	<access origin="*" /> 
 </widget>

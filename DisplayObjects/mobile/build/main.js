@@ -261,7 +261,7 @@ var ProgressPage = (function (_super) {
         /*Begin_c8o_function:CTS1505814542210*/
         //Get a loader instance
         this.loading = this.getInstance(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["LoadingController"]).create({
-            content: 'Synchronisation: ' // + this.router?.sharedObject?.current + ' / ' + this.router?.sharedObject?.total
+            content: 'Synchronisation' // + this.router?.sharedObject?.current + ' / ' + this.router?.sharedObject?.total
         });
         this.loading.present();
         /*End_c8o_function:CTS1505814542210*/
@@ -567,13 +567,13 @@ var DocumentsPage = (function (_super) {
             _this.platform.ready().then(function () {
                 var fileTransfer = _this.transfer.create();
                 _this.c8o.log.error("preparing to download");
-                fileTransfer.download(url, _this.storageDirectory + name)
+                fileTransfer.download(url, _this.storageDirectory + name + ".pdf")
                     .then(function (entry) {
                     _this.c8o.log.info("download ok");
                     resolve(true);
                 }, function (error) {
                     _this.c8o.log.error("error from download1", error);
-                    _this.c8o.log.info(JSON.stringify(error));
+                    _this.c8o.log.info(error.message);
                     resolve(false);
                 }).catch(function (e) {
                     _this.c8o.log.error("download ko");
@@ -601,7 +601,7 @@ var DocumentsPage = (function (_super) {
     };
     DocumentsPage.prototype.openPDF = function (name) {
         var _this = this;
-        this.fileOpener.open(this.storageDirectory + name, 'application/pdf')
+        this.fileOpener.open(this.storageDirectory + name + ".pdf", 'application/pdf')
             .then(function () { return _this.loading.dismiss(); })
             .catch(function (e) {
             _this.loading.dismiss();
@@ -665,6 +665,7 @@ var DocumentsPage = (function (_super) {
     DocumentsPage.prototype.CTS1506030996407 = function (event, url, name) {
         var _this = this;
         /*Begin_c8o_function:CTS1506030996407*/
+        url = encodeURI(url);
         if (window["cordova"] == undefined) {
             var toast = this.toastCtrl.create({
                 message: "Fonctionalitée non disponible en mode navigateur",
@@ -683,12 +684,23 @@ var DocumentsPage = (function (_super) {
             if (url.indexOf(".mp4") != -1) {
                 this.c8o.callJson(".Login")
                     .then(function (response, parameters) {
+                    // this.routerProvider.push("Page", {navParams: url}, null)
                     _this.c8o.log.info('login => logged');
                     // second call sync
-                    //window.open(url, '_blank', 'location=no');
-                    _this.browser.create(url, '_blank', 'location=no,clearcache=no,clearsessioncache=no');
+                    //this.browser.create(url, '_blank', 'allowInlineMediaPlayback=yes,location=no,clearcache=no,clearsessioncache=no');
                     _this.loading.dismiss();
-                    _this.browser.show();
+                    if (_this.platform.is('ios')) {
+                        var toast = _this.toastCtrl.create({
+                            message: "Fonctionalitée expérimentale en mode iOS (Prochainement Disponible)",
+                            duration: 3000,
+                            position: 'bottom'
+                        });
+                        toast.present();
+                    }
+                    else {
+                        window.open(url, '_blank', 'location=no');
+                    }
+                    //this.browser.show();
                     return null;
                 });
             }

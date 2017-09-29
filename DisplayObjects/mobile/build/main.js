@@ -572,12 +572,10 @@ var DocumentsPage = (function (_super) {
                     _this.c8o.log.info("download ok");
                     resolve(true);
                 }, function (error) {
-                    _this.c8o.log.error("error from download1", error);
-                    _this.c8o.log.info(error.message);
+                    _this.c8o.log.error("download ko", error);
                     resolve(false);
                 }).catch(function (e) {
-                    _this.c8o.log.error("download ko");
-                    _this.c8o.log.error("error from download2", e);
+                    _this.c8o.log.error("download ko", e);
                     resolve(false);
                 });
             });
@@ -684,10 +682,7 @@ var DocumentsPage = (function (_super) {
             if (url.indexOf(".mp4") != -1) {
                 this.c8o.callJson(".Login")
                     .then(function (response, parameters) {
-                    // this.routerProvider.push("Page", {navParams: url}, null)
                     _this.c8o.log.info('login => logged');
-                    // second call sync
-                    //this.browser.create(url, '_blank', 'allowInlineMediaPlayback=yes,location=no,clearcache=no,clearsessioncache=no');
                     _this.loading.dismiss();
                     if (_this.platform.is('ios')) {
                         var toast = _this.toastCtrl.create({
@@ -700,7 +695,6 @@ var DocumentsPage = (function (_super) {
                     else {
                         window.open(url, '_blank', 'location=no');
                     }
-                    //this.browser.show();
                     return null;
                 });
             }
@@ -738,7 +732,7 @@ var DocumentsPage = (function (_super) {
                                 });
                                 toast.present();
                                 _this.loading.dismiss();
-                                _this.c8o.log.error("error" + JSON.stringify(error));
+                                _this.c8o.log.error("error during download", error);
                             });
                             return null;
                         }).fail(function (error) {
@@ -749,7 +743,7 @@ var DocumentsPage = (function (_super) {
                             });
                             toast.present();
                             _this.loading.dismiss();
-                            _this.c8o.log.error("error" + JSON.stringify(error));
+                            _this.c8o.log.error("error", error);
                         });
                     }
                 });
@@ -927,9 +921,10 @@ DocumentsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-documentspage',template:/*ion-inline-start:"C:\a\MonMobile\_private\ionic\src\pages\DocumentsPage\documentspage.html"*/'<ion-header class="class1505895272375">\n\n<ion-navbar class="class1505895272391" color="sncf">\n\n<ion-title class="class1505895272405">\n\nDocuments\n\n</ion-title>\n\n</ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="class1505895192931" padding>\n\n<ion-searchbar class="class1506027992395" autocorrect="" debounce="250" autocomplete="off" spellcheck="false" animated="true" placeholder="Recherche" type="search" cancelButtonText="Cancel" showCancelButton="true" (ionInput)="search($event)" [(ngModel)]="searchbar">\n\n</ion-searchbar>\n\n<ion-list class="class1505895398665">\n\n<ng-container class="class1506030363691" *ngIf="searchbar == \'\'">\n\n<ng-container class="class1505909565774" *ngIf="this.navParams != \'\'">\n\n<ng-container class="class1506030996157" *ngFor="let item1506030996157 of this.navParams;">\n\n<ng-container class="class1506030996170" *ngIf="item1506030996157.type == \'file\'">\n\n<ion-item class="class1506030996183" (click)="CTS1506030996407($event, item1506030996157.path, item1506030996157.id)">\n\n<ion-thumbnail class="class1506030996196" item-left>\n\n<ng-container class="class1506030996210" *ngIf="item1506030996157.type == \'dir\'">\n\n<img class="class1506030996228" width="" [src]="\'assets/images/folder.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1506030996240" *ngIf="item1506030996157.type == \'file\'">\n\n<ng-container class="class1506030996253" *ngIf="item1506030996157.path.indexOf(\'pdf\') !== -1;">\n\n<img class="class1506030996268" width="" [src]="\'assets/images/pdf.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1506030996284" *ngIf="item1506030996157.path.indexOf(\'mp4\') !== -1;">\n\n<img class="class1506030996297" width="" [src]="\'assets/images/mp4.png\'" height=""/>\n\n</ng-container>\n\n</ng-container>\n\n</ion-thumbnail>\n\n<div class="class1506030996322">\n\n<h2 class="class1506030996335" ion-text>\n\n<div class="class1506030996350" text-capitalize text-wrap>\n\n{{item1506030996157.name}}\n\n</div>\n\n</h2>\n\n</div>\n\n</ion-item>\n\n</ng-container>\n\n<ng-container class="class1506030996495" *ngIf="item1506030996157.type == \'dir\'">\n\n<ion-item class="class1506030996509" (click)="CTS1506030996645($event, item1506030996157?.children, item1506030996157?.path, item1506030996157?.type)">\n\n<ion-thumbnail class="class1506030996522" item-left>\n\n<ng-container class="class1506030996536" *ngIf="item1506030996157.type == \'dir\'">\n\n<img class="class1506030996551" width="" [src]="\'assets/images/folder.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1506030996567" *ngIf="item1506030996157.type == \'file\'">\n\n<ng-container class="class1506030996585" *ngIf="item1506030996157.path.indexOf(\'pdf\') !== -1;">\n\n<img class="class1506030996600" width="" [src]="\'assets/images/pdf.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1506030996612" *ngIf="item1506030996157.path.indexOf(\'mp4\') !== -1;">\n\n<img class="class1506030996626" width="" [src]="\'assets/images/mp4.png\'" height=""/>\n\n</ng-container>\n\n</ng-container>\n\n</ion-thumbnail>\n\n<div class="class1506030996791">\n\n<h2 class="class1506030996802" ion-text>\n\n<div class="class1506030996817" text-capitalize text-wrap>\n\n{{item1506030996157.name}}\n\n</div>\n\n</h2>\n\n</div>\n\n<ng-container class="class1506030996867" *ngIf="true">\n\n</ng-container>\n\n</ion-item>\n\n</ng-container>\n\n</ng-container>\n\n</ng-container>\n\n<ng-container class="class1505909599593" *ngIf="this.navParams == \'\'">\n\n<ng-container class="class1505909649649" *ngFor="let item1505909649649 of listen([\'fs://monmob.get#doc\']).array;">\n\n<ion-item class="class1505909649660" (click)="CTS1505909649776($event, item1505909649649?.children, item1505909649649?.path, item1505909649649?.type)">\n\n<ion-thumbnail class="class1505909649669" item-left>\n\n<ng-container class="class1505909649681" *ngIf="item1505909649649.type == \'dir\'">\n\n<img class="class1505909649693" width="" [src]="\'assets/images/folder.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505909649708" *ngIf="item1505909649649.type == \'file\'">\n\n<ng-container class="class1505909649718" *ngIf="item1505909649649.path.indexOf(\'pdf\') !== -1;">\n\n<img class="class1505909649730" width="" [src]="\'assets/images/pdf.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505909649743" *ngIf="item1505909649649.path.indexOf(\'mp4\') !== -1;">\n\n<img class="class1505909649754" width="" [src]="\'assets/images/mp4.png\'" height=""/>\n\n</ng-container>\n\n</ng-container>\n\n</ion-thumbnail>\n\n<div class="class1505909649838">\n\n<h2 class="class1505909649852" ion-text>\n\n<div class="class1505909649868" text-capitalize text-wrap>\n\n{{item1505909649649.name}}\n\n</div>\n\n</h2>\n\n</div>\n\n</ion-item>\n\n</ng-container>\n\n</ng-container>\n\n</ng-container>\n\n<ng-container class="class1506030406070" *ngIf="searchbar != \'\'">\n\n<ng-container class="class1505895368913" *ngFor="let item1505895368913 of this.array;">\n\n<ng-container class="class1505900457055" *ngIf="item1505895368913.type == \'file\'">\n\n<ion-item class="class1505919816296" (click)="CTS1505919816590($event, item1505895368913.path, item1505895368913.id)">\n\n<ion-thumbnail class="class1505919816307" item-left>\n\n<ng-container class="class1505919816319" *ngIf="item1505895368913.type == \'dir\'">\n\n<img class="class1505919816330" width="" [src]="\'assets/images/folder.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505919816342" *ngIf="item1505895368913.type == \'file\'">\n\n<ng-container class="class1505919816354" *ngIf="item1505895368913.path.indexOf(\'pdf\') !== -1;">\n\n<img class="class1505919816367" width="" [src]="\'assets/images/pdf.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505919816382" *ngIf="item1505895368913.path.indexOf(\'mp4\') !== -1;">\n\n<img class="class1505919816396" width="" [src]="\'assets/images/mp4.png\'" height=""/>\n\n</ng-container>\n\n</ng-container>\n\n</ion-thumbnail>\n\n<div class="class1505919816488">\n\n<h2 class="class1505919816499" ion-text>\n\n<div class="class1505919816511" text-capitalize text-wrap>\n\n{{item1505895368913.name}}\n\n</div>\n\n</h2>\n\n</div>\n\n</ion-item>\n\n</ng-container>\n\n<ng-container class="class1505919790070" *ngIf="item1505895368913.type == \'dir\'">\n\n<ion-item class="class1505895858010" (click)="CTS1505896832782($event, item1505895368913?.children, item1505895368913?.path, item1505895368913?.type)">\n\n<ion-thumbnail class="class1505896293429" item-left>\n\n<ng-container class="class1505896788080" *ngIf="item1505895368913.type == \'dir\'">\n\n<img class="class1505907388214" width="" [src]="\'assets/images/folder.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505907628969" *ngIf="item1505895368913.type == \'file\'">\n\n<ng-container class="class1505907720430" *ngIf="item1505895368913.path.indexOf(\'pdf\') !== -1;">\n\n<img class="class1505907720439" width="" [src]="\'assets/images/pdf.png\'" height=""/>\n\n</ng-container>\n\n<ng-container class="class1505907815540" *ngIf="item1505895368913.path.indexOf(\'mp4\') !== -1;">\n\n<img class="class1505907815596" width="" [src]="\'assets/images/mp4.png\'" height=""/>\n\n</ng-container>\n\n</ng-container>\n\n</ion-thumbnail>\n\n<div class="class1505903956462">\n\n<h2 class="class1505903956472" ion-text>\n\n<div class="class1505903956481" text-capitalize text-wrap>\n\n{{item1505895368913.name}}\n\n</div>\n\n</h2>\n\n</div>\n\n<ng-container class="class1505912289651" *ngIf="true">\n\n</ng-container>\n\n</ion-item>\n\n</ng-container>\n\n</ng-container>\n\n</ng-container>\n\n</ion-list>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\a\MonMobile\_private\ionic\src\pages\DocumentsPage\documentspage.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_c8ocaf__["C8oRouter"], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["NavParams"], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["LoadingController"], __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectorRef"], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injector"], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["MenuController"]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3_c8ocaf__["C8oRouter"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_c8ocaf__["C8oRouter"]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["NavParams"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["NavParams"]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["LoadingController"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["LoadingController"]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectorRef"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectorRef"]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injector"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injector"]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["MenuController"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["MenuController"]) === "function" && _g || Object])
 ], DocumentsPage);
 
+var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=documentspage.js.map
 
 /***/ }),
@@ -1787,9 +1782,8 @@ var MyApp = (function () {
         settings
             .setLogRemote(true)
             .setLogC8o(true)
-            .setLogLevelLocal(__WEBPACK_IMPORTED_MODULE_4_c8osdkangular__["C8oLogLevel"].TRACE)
+            .setLogLevelLocal(__WEBPACK_IMPORTED_MODULE_4_c8osdkangular__["C8oLogLevel"].DEBUG)
             .setTimeout(120000);
-        //.setEndPoint("https://mb.convertigo.net/cems/projects/MonMobile");
         /**
          * Then we assign C8oSettings to our c8o Object with the init method
          */
@@ -1806,11 +1800,7 @@ var MyApp = (function () {
              */
             _this.c8o.finalizeInit().then(function () {
                 /*Begin_c8o_AppInitialization*/
-                console.log("FlashUpdate works fine at first loading....");
-                console.log(window.location.href);
-                _this.router.sharedObject = { current: 0, total: 0 };
                 //Testing connection Type
-                _this.router.routerLogLevel = __WEBPACK_IMPORTED_MODULE_4_c8osdkangular__["C8oLogLevel"].TRACE;
                 var initialConnectionType = "Unknown";
                 if (navigator["connection"] != undefined) {
                     initialConnectionType = navigator["connection"].type;

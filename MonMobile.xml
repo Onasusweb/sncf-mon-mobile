@@ -279,7 +279,9 @@
 	/*End_c8o_AppDeclaration*/
 /*Begin_c8o_AppConstructor*/
 		/*End_c8o_AppConstructor*/
-/*Begin_c8o_AppInitialization*/            
+/*Begin_c8o_AppInitialization*/
+            //set Prefix_url
+            this.router.sharedObject = {prefix_site_clipper: "https://mb.convertigo.net/cems/projects/MonMobile/connector=SC,context=ctx.siteclipper/http/"}            
             //Testing connection Type
             let initialConnectionType = "Unknown";
             if(navigator["connection"] != undefined){
@@ -311,8 +313,6 @@
                     .progress((progress:any)=>{
                         console.log(progress.toString());
                         this.c8o.log.info(progress.toString());
-                        // share progress status with another page (ProgressPage)
-                        this.router.sharedObject = {current:progress.current, total:progress.total};
                         //this.router.storeResponseForView("Page", "fs://monmob.sync#progress", progress, null, null, null);
                         // if progress is finished then show another view
                         if(progress.finished){
@@ -1155,7 +1155,7 @@ $line-height: 1.4;
 	            
 	        });
 	        this.loading.present();
-	        let prefix = "https://mb.convertigo.net/cems/projects/MonMobile/connector=SC,context=ctx.siteclipper/http/";
+	        let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
 	        let startIndx = url.indexOf("monmobile");
 	        url = url.substring(startIndx);
 	        url = prefix + url;
@@ -1505,7 +1505,7 @@ $line-height: 1.4;
                 
             });
             this.loading.present();
-            let prefix = "https://mb.convertigo.net/cems/projects/MonMobile/connector=SC,context=ctx.siteclipper/http/";
+            let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
             let startIndx = url.indexOf("monmobile");
             url = url.substring(startIndx);
             url = prefix + url;

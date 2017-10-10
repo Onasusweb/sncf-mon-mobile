@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><convertigo beans="7.5.0.m006" engine="7.5.0" studio="7.5.0" version="7.5.0_alpha">
-<!--<Project : MonMobile>                                                                                                                                 --><project classname="com.twinsoft.convertigo.beans.core.Project" priority="0"><property name="bStrictMode"><java.lang.Boolean value="true"/></property><property name="browserDefinitions"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></property><property name="comment"><java.lang.String value="Mobile project template based on Ionic 2+ and  Angular 2+"/></property><property name="contextTimeout"><java.lang.Integer value="300"/></property><property name="corsOrigin"><java.lang.String value="=Origin"/></property><property name="httpSessionTimeout"><java.lang.Integer value="1800"/></property><property name="jsonOutput"><java.lang.String value="useType"/></property><property name="jsonRoot"><java.lang.String value="docChildNodes"/></property><property name="name"><java.lang.String value="MonMobile"/></property><property name="namespaceUri"><java.lang.String value=""/></property><property name="schemaElementForm"><java.lang.String value="unqualified"/></property><property name="schemaInline"><java.lang.Boolean value="true"/></property><property name="version"><java.lang.String value="1.0-beta152"/></property><property name="wsdlStyle"><java.lang.String value="docLiteral"/></property><property name="xpathEngine"><java.lang.String value="JXPath"/></property>
+<!--<Project : MonMobile>                                                                                                                                 --><project classname="com.twinsoft.convertigo.beans.core.Project" priority="0"><property name="bStrictMode"><java.lang.Boolean value="true"/></property><property name="browserDefinitions"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></property><property name="comment"><java.lang.String value="Mobile project template based on Ionic 2+ and  Angular 2+"/></property><property name="contextTimeout"><java.lang.Integer value="300"/></property><property name="corsOrigin"><java.lang.String value="=Origin"/></property><property name="httpSessionTimeout"><java.lang.Integer value="1800"/></property><property name="jsonOutput"><java.lang.String value="useType"/></property><property name="jsonRoot"><java.lang.String value="docChildNodes"/></property><property name="name"><java.lang.String value="MonMobile"/></property><property name="namespaceUri"><java.lang.String value=""/></property><property name="schemaElementForm"><java.lang.String value="unqualified"/></property><property name="schemaInline"><java.lang.Boolean value="true"/></property><property name="version"><java.lang.String value="1.0-beta165"/></property><property name="wsdlStyle"><java.lang.String value="docLiteral"/></property><property name="xpathEngine"><java.lang.String value="JXPath"/></property>
 <!--   <FullSync connector : monmob>                                                                                                                      --><connector classname="com.twinsoft.convertigo.beans.connectors.FullSyncConnector" default="false" priority="0"><property name="billingClassName"><java.lang.String value=""/></property><property name="comment"><java.lang.String value="Fullsync connector"/></property><property ciphered="true" name="couchPassword"><java.lang.String value="xd8e180806a1c1d83a6255212121ab827"/></property><property name="couchUsername"><java.lang.String value=""/></property><property name="databaseName"><java.lang.String value="monmob"/></property><property name="endTransactionName"><java.lang.String value=""/></property><property name="https"><java.lang.Boolean value="false"/></property><property name="isTasAuthenticationRequired"><java.lang.Boolean value="false"/></property><property name="jsonUseType"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="monmob"/></property><property name="port"><java.lang.Integer value="5984"/></property><property name="server"><java.lang.String value="127.0.0.1"/></property>
 <!--      <GetServerInfo : GetServerInfo>                                                                                                                 --><transaction classname="com.twinsoft.convertigo.beans.transactions.couchdb.GetServerInfoTransaction" default="true" priority="0"><property name="accessibility"><java.lang.String value="Public"/></property><property name="addStatistics"><java.lang.Boolean value="false"/></property><property name="authenticatedContextRequired"><java.lang.Boolean value="false"/></property><property name="authenticatedUserAsCacheKey"><java.lang.Boolean value="false"/></property><property name="bIncludeCertificateGroup"><java.lang.Boolean value="false"/></property><property name="billable"><java.lang.Boolean value="false"/></property><property name="clientCachable"><java.lang.Boolean value="false"/></property><property name="comment"><java.lang.String value=""/></property><property name="encodingCharSet"><java.lang.String value="UTF-8"/></property><property name="name"><java.lang.String value="GetServerInfo"/></property><property name="orderedVariables"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="responseExpiryDate"><java.lang.String value=""/></property><property name="responseTimeout"><java.lang.Long value="60"/></property><property name="secureConnectionRequired"><java.lang.Boolean value="false"/></property><property name="sheetLocation"><java.lang.Integer value="0"/></property><property name="xmlComplexTypeAffectation"><xmlizable classname="com.twinsoft.convertigo.beans.common.XmlQName"><schemaDefinition/></xmlizable></property><wsdltype/><handlers/>
 <!--      </GetServerInfo : GetServerInfo>                                                                                                                --></transaction>
@@ -366,7 +366,7 @@
 			/*End_c8o_AppInitialization*/
 /*Begin_c8o_AppFunction*/
 	/*End_c8o_AppFunction*/
-]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="name"><java.lang.String value="Application"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1491635018260"/><java.lang.Long value="1491635462437"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedMenus"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1500890597895"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedPages"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505293173021"/><java.lang.Long value="1500538678074"/><java.lang.Long value="1505814389295"/><java.lang.Long value="1505827505408"/><java.lang.Long value="1505895161504"/><java.lang.Long value="1505938100726"/><java.lang.Long value="1505938201813"/><java.lang.Long value="1505939374992"/><java.lang.Long value="1505948822036"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedRoutes"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505827470565"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="name"><java.lang.String value="Application"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1491635018260"/><java.lang.Long value="1491635462437"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedMenus"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1500890597895"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedPages"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505293173021"/><java.lang.Long value="1500538678074"/><java.lang.Long value="1505814389295"/><java.lang.Long value="1505827505408"/><java.lang.Long value="1505895161504"/><java.lang.Long value="1505938100726"/><java.lang.Long value="1505938201813"/><java.lang.Long value="1505939374992"/><java.lang.Long value="1505948822036"/><java.lang.Long value="1507641689591"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedRoutes"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505827470565"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--         <NavRoute : NavRoute>                                                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.RouteComponent" newPriority="1505827470565" priority="1505827470565"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="NavRoute"/></property><property name="orderedActions"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505313084826"/><java.lang.Long value="1505827470581"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="orderedEvents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311333496"/><java.lang.Long value="1505827470574"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--            <FullSyncEvent : FullSyncEvent>                                                                                                           --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.RouteFullsyncEvent" newPriority="1505827470574" priority="1505827470574"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="marker"><java.lang.String value="getDetailsNews"/></property><property name="name"><java.lang.String value="FullSyncEvent"/></property><property name="source"><java.lang.String value="MonMobile.monmob"/></property><property name="verb"><java.lang.String value="get"/></property>
 <!--            </FullSyncEvent : FullSyncEvent>                                                                                                          --></mobilecomponent>
@@ -539,7 +539,7 @@ $line-height: 1.4;
 <!--                                 </Text : Text>                                                                                                       --></mobilecomponent>
 <!--                              </Dynamic Element : Paragraph1>                                                                                         --></mobilecomponent>
 <!--                           </Dynamic Element : TextFormat>                                                                                            --></mobilecomponent>
-<!--                           <Event : Event>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625366925" priority="1507625366925"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311185324"/><java.lang.Long value="1505815363494"/><java.lang.Long value="1505825742922"/><java.lang.Long value="1507625366930"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                           <Event : Event>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625366925" priority="1507625366925"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311185324"/><java.lang.Long value="1505815363494"/><java.lang.Long value="1505825742922"/><java.lang.Long value="1507625366930"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                              <CallFullSync : CallFullSync>                                                                                           --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCallFullSync" newPriority="1507625366930" priority="1507625366930"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="marker"><java.lang.String value="getDetailsNews"/></property><property name="name"><java.lang.String value="CallFullSync"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311276040"/><java.lang.Long value="1505815363507"/><java.lang.Long value="1505825742935"/><java.lang.Long value="1507625366948"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="target"><java.lang.String value="MonMobile.monmob"/></property><property name="verb"><java.lang.String value="get"/></property>
 <!--                                 <Variable : docid>                                                                                                   --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlVariable" newPriority="1507625366948" priority="1507625366948"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="docid"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="varValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"source","value":"{\"filter\":\"Iteration\",\"project\":\"MonMobile\",\"input\":\"item1505295874965?.id\"}"}</MobileSmartSourceType></xmlizable></property>
 <!--                                 </Variable : docid>                                                                                                  --></mobilecomponent>
@@ -636,7 +636,7 @@ $line-height: 1.4;
 <!--                                 </Text : Text>                                                                                                       --></mobilecomponent>
 <!--                              </Dynamic Element : Paragraph1>                                                                                         --></mobilecomponent>
 <!--                           </Dynamic Element : TextFormat>                                                                                            --></mobilecomponent>
-<!--                           <Event : Event>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625412349" priority="1507625412349"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311185324"/><java.lang.Long value="1505815363494"/><java.lang.Long value="1507625412355"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                           <Event : Event>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625412349" priority="1507625412349"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311185324"/><java.lang.Long value="1505815363494"/><java.lang.Long value="1507625412355"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                              <CallFullSync : CallFullSync>                                                                                           --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCallFullSync" newPriority="1507625412355" priority="1507625412355"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="marker"><java.lang.String value="getDetailsNews"/></property><property name="name"><java.lang.String value="CallFullSync"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505311276040"/><java.lang.Long value="1505815363507"/><java.lang.Long value="1507625412371"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="target"><java.lang.String value="MonMobile.monmob"/></property><property name="verb"><java.lang.String value="get"/></property>
 <!--                                 <Variable : docid>                                                                                                   --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlVariable" newPriority="1507625412371" priority="1507625412371"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="docid"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="varValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"source","value":"{\"filter\":\"Iteration\",\"project\":\"MonMobile\",\"input\":\"item1505295874965?.id\"}"}</MobileSmartSourceType></xmlizable></property>
 <!--                                 </Variable : docid>                                                                                                  --></mobilecomponent>
@@ -934,6 +934,7 @@ import { FileOpener } from '@ionic-native/file-opener';
 import { StreamingMedia, StreamingVideoOptions } from '@ionic-native/streaming-media';
 import { ToastController } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { ModalController } from 'ionic-angular';
 /*End_c8o_PageImport*/
 /*Begin_c8o_PageDeclaration*/
     data: any;
@@ -948,15 +949,17 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     array =[];
     searchbar ='';
     browser : any;
+    modalCtrl: ModalController;
 	/*End_c8o_PageDeclaration*/
 /*Begin_c8o_PageConstructor*/
 		this.platform = this.getInstance(Platform);
-	    this.file= this.getInstance(File);
-	    this.transfer= this.getInstance(Transfer);
-	    this.fileOpener = this.getInstance(FileOpener);
-	    this.streamingMedia = this.getInstance(StreamingMedia);
-	    this.toastCtrl = this.getInstance(ToastController);
-	    this.browser = this.getInstance(InAppBrowser);
+    this.file= this.getInstance(File);
+    this.transfer= this.getInstance(Transfer);
+    this.fileOpener = this.getInstance(FileOpener);
+    this.streamingMedia = this.getInstance(StreamingMedia);
+    this.toastCtrl = this.getInstance(ToastController);
+    this.browser = this.getInstance(InAppBrowser);
+    this.modalCtrl = this.getInstance(ModalController);
 
 	    if(window["cordova"] != undefined){
 	        if (this.platform.is('ios')) {
@@ -976,7 +979,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 	        this.platform.ready().then(() => {
 	            const fileTransfer: TransferObject = this.transfer.create();
 	        this.c8o.log.error("preparing to download");
-	            fileTransfer.download(url, this.storageDirectory + name + ".pdf")
+	            fileTransfer.download(url, this.storageDirectory + name)
 	            .then((entry) => {
 	                this.c8o.log.info("download ok");
 	                resolve(true);
@@ -996,8 +999,8 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 	    return new Promise((resolve)=>{
 	        let present: boolean = false
 	        this.file.checkFile(this.storageDirectory, name)
-	          .then(() => {
-	              present = true;
+	          .then((prst) => {
+	              present = prst;
 	              resolve(present);
 	          })
 	          .catch((err) => {
@@ -1009,7 +1012,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 	  }
 	  
 	  public openPDF(name:string){
-	      this.fileOpener.open(this.storageDirectory + name +".pdf" , 'application/pdf')
+	      this.fileOpener.open(this.storageDirectory + name , 'application/pdf')
           .then(() => this.loading.dismiss())
           .catch((e)=> {
               this.loading.dismiss();
@@ -1022,6 +1025,20 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
               console.log('Error openening file', e)
           } );
 	  }
+    
+    public openVideo(name:string, isCordova: boolean){
+      let path:string;
+      if(isCordova){
+        path = this.storageDirectory + name;
+      }
+      else{
+        path = name;
+      }
+      this.loading.dismiss()
+      let mod = this.modalCtrl.create("VideoPage", {navParams: path});
+      mod.present();
+      
+    }
 	  
 	  public search(ev){
 	      this.array =[];
@@ -1122,96 +1139,106 @@ $line-height: 1.4;
 	  text-overflow: ellipsis;]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property>
 <!--                                    </Style : Style>                                                                                                  --></mobilecomponent>
 <!--                                 </Dynamic Element : DivTag1>                                                                                         --></mobilecomponent>
-<!--                                 <Event : Event2>                                                                                                     --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625527478" priority="1507625527478"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event2"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505912330690"/><java.lang.Long value="1505919816590"/><java.lang.Long value="1506030996407"/><java.lang.Long value="1507625527483"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
-<!--                                    <CustomAction : open>                                                                                             --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625527483" priority="1507625527483"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    url = encodeURI(url);
-	    if(window["cordova"] == undefined){
-            let toast = this.toastCtrl.create({
-                message: "Fonctionalitée non disponible en mode navigateur",
+<!--                                 <Event : Event2>                                                                                                     --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625527478" priority="1507625527478"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event2"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505912330690"/><java.lang.Long value="1505919816590"/><java.lang.Long value="1506030996407"/><java.lang.Long value="1507625527483"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                                    <CustomAction : open>                                                                                             --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625527483" priority="1507625527483"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[    //create a loading 
+    this.loading = this.loadingCtrl.create({});
+    this.loading.present();
+    let isPDF;
+    //check for cordova avaibility
+    let isCordova = window["cordova"] != undefined;
+	  //Encode and prepare url for siteClipper
+    url = encodeURI(url);
+    //
+    let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
+    let startIndx = url.indexOf("monmobile");
+    url = url.substring(startIndx);
+    url = prefix + url;
+    //check type of file
+    if(url.indexOf(".mp4")!= -1){
+      name += ".mp4";
+      isPDF = false;
+    }else{
+      isPDF = true;
+      name += ".pdf";
+    }
+    
+    //if file is pdf and we are in browser mode then we display a toast
+    if(!isCordova){
+        if(isPDF){
+          let toast = this.toastCtrl.create({
+                message: "Fonctionnalité non disponible en mode navigateur",
                 duration: 3000,
                 position: 'bottom'
               });
+          this.loading.dismiss();
             toast.present();
         }
-	    else{
-	        this.loading = this.loadingCtrl.create({
-	            
-	        });
-	        this.loading.present();
-	        let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
-	        let startIndx = url.indexOf("monmobile");
-	        url = url.substring(startIndx);
-	        url = prefix + url;
-	        if(url.indexOf(".mp4")!= -1){
-	            this.c8o.callJson(".Login")
+        else{
+          this.openVideo(url, isCordova);
+        }
+          
+      }
+    //else
+    else{
+      //check if file exists
+      this.checkforfiles(name)
+          .then((present)=>{
+              if(present){
+                if(isPDF){
+                  this.openPDF(name);
+                }
+                else{
+                  this.openVideo(name, isCordova);
+                }
+              }
+              else{
+                this.c8o.callJson(".Login")
                 .then((response: any, parameters: Object)=>{
-                    this.c8o.log.info('login => logged');
-                    this.loading.dismiss();
-                    if(this.platform.is('ios')){
-                        let toast = this.toastCtrl.create({
-                            message: "Fonctionalitée expérimentale en mode iOS (Prochainement Disponible)",
-                            duration: 3000,
-                            position: 'bottom'
-                          });
-                        toast.present();
-                    }
-                    else{
-                        window.open(url, '_blank', 'location=no');
-                    }
-                    return null;
-                });
-	        }
-	        else{
-	            this.checkforfiles(name)
-	            .then((present)=>{
-	                if(present){
-	                    this.openPDF(name);
-	                }
-	                else{
-	                    this.c8o.callJson(".Login")
-	                    .then((response: any, parameters: Object)=>{
-	                        this.c8o.log.info('login => logged');
-	                        // second call sync
-    	                    this.download(url, name)
-    	                    .then((arg)=>{
-    	                        if(arg){
-    	                            this.openPDF(name);
-    	                        }
-    	                        else{
-    	                            this.loading.dismiss();
-    	                            let toast = this.toastCtrl.create({
-    	                                message: "Réseau non disponible",
-    	                                duration: 3000,
-    	                                position: 'bottom'
-    	                              });
-    	                            toast.present();
-    	                        }
-    	                    })
-    	                    .catch((error)=>{
-                                let toast = this.toastCtrl.create({
-                                    message: "Erreur pendant le téléchargement du fichier",
-                                    duration: 3000,
-                                    position: 'bottom'
-                                  });
-                                toast.present();
-                                this.loading.dismiss();
-                                this.c8o.log.error("error during download", error);
-                            });
-    	                    return null;
-	                    }).fail((error)=>{
-	                        let toast = this.toastCtrl.create({
+                  this.c8o.log.info('login => logged');
+                  this.download(url, name)
+                      .then((arg)=>{
+                          if(arg){
+                            if(isPDF){
+                              this.openPDF(name); 
+                            }
+                            else{
+                              this.openVideo(name, isCordova);
+                            }
+                          }
+                          else{
+                              this.loading.dismiss();
+                              let toast = this.toastCtrl.create({
+                                  message: "Réseau non disponible",
+                                  duration: 3000,
+                                  position: 'bottom'
+                                });
+                              toast.present();
+                          }
+                      })
+                      .catch((error)=>{
+                            let toast = this.toastCtrl.create({
                                 message: "Erreur pendant le téléchargement du fichier",
                                 duration: 3000,
                                 position: 'bottom'
                               });
                             toast.present();
                             this.loading.dismiss();
-                            this.c8o.log.error("error", error);
-	                    })
-	                    
-	                }
-	            });
-	        }
-	    }
+                            this.c8o.log.error("error during download", error);
+                        });
+                  return null;
+                  }).fail((resp)=>{
+                    let toast = this.toastCtrl.create({
+                                  message: "Réseau non disponible",
+                                  duration: 3000,
+                                  position: 'bottom'
+                                });
+                    this.loading.dismiss();
+                              toast.present();
+                  });
+                
+              }
+            });
+    }
 	    
 	    //---function:CTS1505919816590---]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="open"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505919399371"/><java.lang.Long value="1505919401568"/><java.lang.Long value="1505919816611"/><java.lang.Long value="1505919816629"/><java.lang.Long value="1506030996436"/><java.lang.Long value="1506030996468"/><java.lang.Long value="1507625527538"/><java.lang.Long value="1507625527599"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                                       <Variable : url>                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlVariable" newPriority="1507625527538" priority="1507625527538"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="url"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="varValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"source","value":"{\"filter\":\"Iteration\",\"project\":\"MonMobile\",\"input\":\"item1506030996157.path\"}"}</MobileSmartSourceType></xmlizable></property>
@@ -1266,7 +1293,7 @@ $line-height: 1.4;
 	  text-overflow: ellipsis;]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property>
 <!--                                    </Style : Style>                                                                                                  --></mobilecomponent>
 <!--                                 </Dynamic Element : DivTag1>                                                                                         --></mobilecomponent>
-<!--                                 <Event : Event>                                                                                                      --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625579939" priority="1507625579939"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1506030996645"/><java.lang.Long value="1507625579944"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                                 <Event : Event>                                                                                                      --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625579939" priority="1507625579939"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1506030996645"/><java.lang.Long value="1507625579944"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                                    <CustomAction : openchildren>                                                                                     --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625579944" priority="1507625579944"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	       this.searchbar = '';
 
 	    switch(types) { 
@@ -1339,7 +1366,7 @@ $line-height: 1.4;
 	  text-overflow: ellipsis;]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property>
 <!--                                 </Style : Style>                                                                                                     --></mobilecomponent>
 <!--                              </Dynamic Element : DivTag1>                                                                                            --></mobilecomponent>
-<!--                              <Event : Event>                                                                                                         --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625621536" priority="1507625621536"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1505909649776"/><java.lang.Long value="1507625621540"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                              <Event : Event>                                                                                                         --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625621536" priority="1507625621536"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1505909649776"/><java.lang.Long value="1507625621540"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                                 <CustomAction : openchildren>                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625621540" priority="1507625621540"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    switch(types) { 
 	    case "file": { 
 	       //this.routerProvider.push("DocumentsPage", {navparams:, null)
@@ -1412,82 +1439,83 @@ $line-height: 1.4;
 	  text-overflow: ellipsis;]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property>
 <!--                                 </Style : Style>                                                                                                     --></mobilecomponent>
 <!--                              </Dynamic Element : DivTag1>                                                                                            --></mobilecomponent>
-<!--                              <Event : Event2>                                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625657794" priority="1507625657794"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event2"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505912330690"/><java.lang.Long value="1505919816590"/><java.lang.Long value="1507625657834"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
-<!--                                 <CustomAction : open2>                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625657834" priority="1507625657834"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    if(window["cordova"] == undefined){
-            let toast = this.toastCtrl.create({
-                message: "Fonctionalitée non disponible en mode navigateur",
+<!--                              <Event : Event2>                                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625657794" priority="1507625657794"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event2"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505912330690"/><java.lang.Long value="1507625657834"/><java.lang.Long value="1505919816590"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                                 <CustomAction : open2>                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625657834" priority="1507625657834"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	   //create a loading 
+    this.loading = this.loadingCtrl.create({});
+    this.loading.present();
+    let isPDF;
+    //check for cordova avaibility
+    let isCordova = window["cordova"] != undefined;
+    //Encode and prepare url for siteClipper
+    url = encodeURI(url);
+    //
+    let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
+    let startIndx = url.indexOf("monmobile");
+    url = url.substring(startIndx);
+    url = prefix + url;
+    //check type of file
+    if(url.indexOf(".mp4")!= -1){
+      name += ".mp4";
+      isPDF = false;
+    }else{
+      isPDF = true;
+      name += ".pdf";
+    }
+    
+    //if file is pdf and we are in browser mode then we display a toast
+    if(!isCordova){
+        if(isPDF){
+          let toast = this.toastCtrl.create({
+                message: "Fonctionnalité non disponible en mode navigateur",
                 duration: 3000,
                 position: 'bottom'
               });
+          this.loading.dismiss();
             toast.present();
         }
-        /*else if(this.platform.is('ios')){
-            let toast = this.toastCtrl.create({
-                message: "Fonctionalitée non disponible en mode iOS (Prochainement Disponible)",
-                duration: 3000,
-                position: 'bottom'
-              });
-            toast.present();
-        }*/
         else{
-            this.loading = this.loadingCtrl.create({
-                
-            });
-            this.loading.present();
-            let prefix = this.routerProvider.sharedObject.prefix_site_clipper;
-            let startIndx = url.indexOf("monmobile");
-            url = url.substring(startIndx);
-            url = prefix + url;
-            if(url.indexOf(".mp4")!= -1){
+          this.openVideo(url, isCordova);
+        }
+          
+      }
+    //else
+    else{
+      //check if file exists
+      this.checkforfiles(name)
+          .then((present)=>{
+              if(present){
+                if(isPDF){
+                  this.openPDF(name);
+                }
+                else{
+                  this.openVideo(name, isCordova);
+                }
+              }
+              else{
                 this.c8o.callJson(".Login")
                 .then((response: any, parameters: Object)=>{
-                    this.c8o.log.info('login => logged');
-                    // second call sync
-                    //window.open(url, '_blank', 'location=no');
-                    this.browser.create(url, '_blank', 'location=no,clearcache=no,clearsessioncache=no');
-                    this.loading.dismiss();
-                    this.browser.show();
-                    return null;
-                });
-            }
-            else{
-                this.checkforfiles(name)
-                .then((present)=>{
-                    if(present){
-                        this.openPDF(name);
-                    }
-                    else{
-                        this.c8o.callJson(".Login")
-                        .then((response: any, parameters: Object)=>{
-                            this.c8o.log.info('login => logged');
-                            // second call sync
-                            this.download(url, name)
-                            .then((arg)=>{
-                                if(arg){
-                                    this.openPDF(name);
-                                }
-                                else{
-                                    this.loading.dismiss();
-                                    let toast = this.toastCtrl.create({
-                                        message: "Réseau non disponible",
-                                        duration: 3000,
-                                        position: 'bottom'
-                                      });
-                                    toast.present();
-                                }
-                            })
-                            .catch((error)=>{
-                                let toast = this.toastCtrl.create({
-                                    message: "Erreur pendant le téléchargement du fichier",
-                                    duration: 3000,
-                                    position: 'bottom'
-                                  });
-                                toast.present();
-                                this.loading.dismiss();
-                                this.c8o.log.error("error"+ JSON.stringify(error));
-                            });
-                            return null;
-                        }).fail((error)=>{
+                  this.c8o.log.info('login => logged');
+                  this.download(url, name)
+                      .then((arg)=>{
+                          if(arg){
+                            if(isPDF){
+                              this.openPDF(name); 
+                            }
+                            else{
+                              this.openVideo(name, isCordova);
+                            }
+                          }
+                          else{
+                              this.loading.dismiss();
+                              let toast = this.toastCtrl.create({
+                                  message: "Réseau non disponible",
+                                  duration: 3000,
+                                  position: 'bottom'
+                                });
+                              toast.present();
+                          }
+                      })
+                      .catch((error)=>{
                             let toast = this.toastCtrl.create({
                                 message: "Erreur pendant le téléchargement du fichier",
                                 duration: 3000,
@@ -1495,13 +1523,23 @@ $line-height: 1.4;
                               });
                             toast.present();
                             this.loading.dismiss();
-                            this.c8o.log.error("error"+ JSON.stringify(error));
-                        })
-                        
-                    }
-                });
-            }
-        }
+                            this.c8o.log.error("error during download", error);
+                        });
+                  return null;
+                  }).fail((resp)=>{
+                    let toast = this.toastCtrl.create({
+                                  message: "Réseau non disponible",
+                                  duration: 3000,
+                                  position: 'bottom'
+                                });
+                    this.loading.dismiss();
+                              toast.present();
+                  });
+                
+              }
+            });
+    }
+      
 	    
 	    /*End_c8o_function:CTS1505919816590*/]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="open2"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505919399371"/><java.lang.Long value="1505919401568"/><java.lang.Long value="1505919816611"/><java.lang.Long value="1505919816629"/><java.lang.Long value="1507625657886"/><java.lang.Long value="1507625657951"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                                    <Variable : url>                                                                                                  --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlVariable" newPriority="1507625657886" priority="1507625657886"><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="url"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="varValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"source","value":"{\"filter\":\"Iteration\",\"project\":\"MonMobile\",\"input\":\"item1505895368913.path\"}"}</MobileSmartSourceType></xmlizable></property>
@@ -1556,7 +1594,7 @@ $line-height: 1.4;
 	  text-overflow: ellipsis;]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property>
 <!--                                 </Style : Style>                                                                                                     --></mobilecomponent>
 <!--                              </Dynamic Element : DivTag1>                                                                                            --></mobilecomponent>
-<!--                              <Event : Event>                                                                                                         --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625693662" priority="1507625693662"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1507625693667"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                              <Event : Event>                                                                                                         --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507625693662" priority="1507625693662"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505896832782"/><java.lang.Long value="1507625693667"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                                 <CustomAction : openchildren>                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507625693667" priority="1507625693667"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    switch(types) { 
 	    case "file": { 
 	       //this.routerProvider.push("DocumentsPage", {navparams:, null)
@@ -1753,7 +1791,7 @@ import { ToastController } from 'ionic-angular';
 <!--                           <Dynamic Element : Icon11>                                                                                                 --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1505949028886" priority="1505949028886"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Icon&quot;,&quot;properties&quot;:{&quot;IconName&quot;:{&quot;name&quot;:&quot;IconName&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;arrow-forward&quot;},&quot;ItemPosition&quot;:{&quot;name&quot;:&quot;ItemPosition&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;item-right&quot;},&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeLeft&quot;:{&quot;name&quot;:&quot;RangeLeft&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeRight&quot;:{&quot;name&quot;:&quot;RangeRight&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Icon11"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-icon"/></property>
 <!--                           </Dynamic Element : Icon11>                                                                                                --></mobilecomponent>
 <!--                        </Dynamic Element : Listdivider>                                                                                              --></mobilecomponent>
-<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949028898" priority="1505949028898"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949028898" priority="1505949028898"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                           <CustomAction : push>                                                                                                      --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1505949028904" priority="1505949028904"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[		console.log(event);
 		this.routerProvider.push("SettingsPage", null, null);
 ]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="push"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
@@ -1771,7 +1809,7 @@ import { ToastController } from 'ionic-angular';
 <!--                           <Dynamic Element : Icon11>                                                                                                 --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1506008737115" priority="1506008737115"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Icon&quot;,&quot;properties&quot;:{&quot;IconName&quot;:{&quot;name&quot;:&quot;IconName&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;arrow-forward&quot;},&quot;ItemPosition&quot;:{&quot;name&quot;:&quot;ItemPosition&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;item-right&quot;},&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeLeft&quot;:{&quot;name&quot;:&quot;RangeLeft&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeRight&quot;:{&quot;name&quot;:&quot;RangeRight&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Icon11"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-icon"/></property>
 <!--                           </Dynamic Element : Icon11>                                                                                                --></mobilecomponent>
 <!--                        </Dynamic Element : Listdivider>                                                                                              --></mobilecomponent>
-<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1506008737128" priority="1506008737128"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1506008737136"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1506008737128" priority="1506008737128"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1506008737136"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                           <CustomAction : openOauth>                                                                                                 --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1506008737136" priority="1506008737136"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[        this.router.doOAuthLogin(
                 'https://idp-dev.sncf.fr:443/openam/oauth2/IDP/authorize?'  +                       // Authorize URL
                     'client_id=sncf.id.sandbox.app' +                                                   // Client ID as registred in the app portal
@@ -1799,7 +1837,7 @@ import { ToastController } from 'ionic-angular';
 <!--               <Dynamic Element : DivTag1>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1505949096341" priority="1505949096341"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;DivTag&quot;,&quot;properties&quot;:{}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="DivTag1"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505949028817"/><java.lang.Long value="1505949096351"/><java.lang.Long value="1505949099980"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="div"/></property>
 <!--                  <Dynamic Element : List>                                                                                                            --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1505949096351" priority="1505949096351"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;List&quot;,&quot;properties&quot;:{&quot;Nolines&quot;:{&quot;name&quot;:&quot;Nolines&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;no-lines&quot;},&quot;Inset&quot;:{&quot;name&quot;:&quot;Inset&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;inset&quot;}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="List"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505938542677"/><java.lang.Long value="1505949028831"/><java.lang.Long value="1507625866714"/><java.lang.Long value="1507625928817"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-list"/></property>
 <!--                     <Dynamic Element : Button>                                                                                                       --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507625866714" priority="1507625866714"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Button&quot;,&quot;properties&quot;:{&quot;ButtonFormType&quot;:{&quot;name&quot;:&quot;ButtonFormType&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;ButtonType&quot;:{&quot;name&quot;:&quot;ButtonType&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;ion-item&quot;},&quot;MenuMode&quot;:{&quot;name&quot;:&quot;MenuMode&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonShape&quot;:{&quot;name&quot;:&quot;IonShape&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonOutline&quot;:{&quot;name&quot;:&quot;IonOutline&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonClear&quot;:{&quot;name&quot;:&quot;IonClear&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonSize&quot;:{&quot;name&quot;:&quot;IonSize&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IconPosition&quot;:{&quot;name&quot;:&quot;IconPosition&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IconOnly&quot;:{&quot;name&quot;:&quot;IconOnly&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Button"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505949096428"/><java.lang.Long value="1505949096372"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="button"/></property>
-<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949096428" priority="1505949096428"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1505949096434"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949096428" priority="1505949096428"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1505949096434"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                           <CustomAction : CustomAction>                                                                                              --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1505949096434" priority="1505949096434"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    let toast = this.toastCtrl.create({
             message: "Cette page n'est pas implémentée",
             duration: 3000,
@@ -1821,7 +1859,7 @@ import { ToastController } from 'ionic-angular';
 <!--                        </Dynamic Element : Listdivider>                                                                                              --></mobilecomponent>
 <!--                     </Dynamic Element : Button>                                                                                                      --></mobilecomponent>
 <!--                     <Dynamic Element : Button1>                                                                                                      --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507625928817" priority="1507625928817"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Button&quot;,&quot;properties&quot;:{&quot;ButtonFormType&quot;:{&quot;name&quot;:&quot;ButtonFormType&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;ButtonType&quot;:{&quot;name&quot;:&quot;ButtonType&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;ion-item&quot;},&quot;MenuMode&quot;:{&quot;name&quot;:&quot;MenuMode&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonShape&quot;:{&quot;name&quot;:&quot;IonShape&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonOutline&quot;:{&quot;name&quot;:&quot;IonOutline&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonClear&quot;:{&quot;name&quot;:&quot;IonClear&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IonSize&quot;:{&quot;name&quot;:&quot;IonSize&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IconPosition&quot;:{&quot;name&quot;:&quot;IconPosition&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;IconOnly&quot;:{&quot;name&quot;:&quot;IconOnly&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Button1"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505949295639"/><java.lang.Long value="1505949295573"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="button"/></property>
-<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949295639" priority="1505949295639"><property name="attrName"><java.lang.String value="(tap)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onTap"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1505949096434"/><java.lang.Long value="1505949295644"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1505949295639" priority="1505949295639"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1505939251471"/><java.lang.Long value="1505949028904"/><java.lang.Long value="1505949096434"/><java.lang.Long value="1505949295644"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
 <!--                           <CustomAction : CustomAction>                                                                                              --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1505949295644" priority="1505949295644"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[	    let toast = this.toastCtrl.create({
             message: "Cette page n'est pas implémentée",
             duration: 3000,
@@ -1852,6 +1890,40 @@ import { ToastController } from 'ionic-angular';
 <!--               </Dynamic Element : DivTag1>                                                                                                           --></mobilecomponent>
 <!--            </Dynamic Element : Content>                                                                                                              --></mobilecomponent>
 <!--         </Page : PlusPage>                                                                                                                           --></mobilecomponent>
+<!--         <Page : VideoPage>                                                                                                                           --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.PageComponent" isRoot="false" newPriority="1507641689591" priority="1507641689591"><property name="comment"><java.lang.String value=""/></property><property name="inAutoMenu"><java.lang.Boolean value="true"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="menu"><java.lang.String value=""/></property><property name="name"><java.lang.String value="VideoPage"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1507646011890"/><java.lang.Long value="1507641704252"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="scriptContent"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[/*Begin_c8o_PageImport*/
+import {ViewController } from 'ionic-angular';
+/*End_c8o_PageImport*/
+/*Begin_c8o_PageDeclaration*/
+  url:string ="";
+  viewCtrl: ViewController;
+	/*End_c8o_PageDeclaration*/
+/*Begin_c8o_PageConstructor*/
+    this.url = this.navParams;
+    this.viewCtrl = this.getInstance(ViewController);
+		/*End_c8o_PageConstructor*/
+/*Begin_c8o_PageFunction*/
+	/*End_c8o_PageFunction*/
+]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="segment"><java.lang.String value="VideoPage"/></property><property name="title"><java.lang.String value="Title for VideoPage"/></property>
+<!--            <Dynamic Element : Header>                                                                                                                --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507646011890" priority="1507646011890"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Header&quot;,&quot;properties&quot;:{&quot;NoBorder&quot;:{&quot;name&quot;:&quot;NoBorder&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value="Page header"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Header"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1491634231108"/><java.lang.Long value="1505938118443"/><java.lang.Long value="1505938201865"/><java.lang.Long value="1505939386978"/><java.lang.Long value="1505948840880"/><java.lang.Long value="1507646011906"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-header"/></property>
+<!--               <Dynamic Element : NavBar>                                                                                                             --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507646011906" priority="1507646011906"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;NavBar&quot;,&quot;properties&quot;:{&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;sncf&quot;},&quot;BarMode&quot;:{&quot;name&quot;:&quot;BarMode&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;BackButtonHidden&quot;:{&quot;name&quot;:&quot;BackButtonHidden&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="NavBar"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1491634265317"/><java.lang.Long value="1491634442029"/><java.lang.Long value="1505938118457"/><java.lang.Long value="1505938118481"/><java.lang.Long value="1505938201876"/><java.lang.Long value="1505938201906"/><java.lang.Long value="1505939386989"/><java.lang.Long value="1505939387016"/><java.lang.Long value="1505948840892"/><java.lang.Long value="1505948840915"/><java.lang.Long value="1507646011920"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-navbar"/></property>
+<!--                  <Dynamic Element : BarTitle>                                                                                                        --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507646011920" priority="1507646011920"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;BarTitle&quot;,&quot;properties&quot;:{}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="BarTitle"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1491634275121"/><java.lang.Long value="1505938118468"/><java.lang.Long value="1505938201890"/><java.lang.Long value="1505939387001"/><java.lang.Long value="1505948840904"/><java.lang.Long value="1507647723213"/><java.lang.Long value="1507648079647"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-title"/></property>
+<!--                     <Dynamic Element : Icon>                                                                                                         --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507647723213" priority="1507647723213"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Icon&quot;,&quot;properties&quot;:{&quot;IconName&quot;:{&quot;name&quot;:&quot;IconName&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;arrow-back&quot;},&quot;ItemPosition&quot;:{&quot;name&quot;:&quot;ItemPosition&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;item-start&quot;},&quot;IonColor&quot;:{&quot;name&quot;:&quot;IonColor&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeLeft&quot;:{&quot;name&quot;:&quot;RangeLeft&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;RangeRight&quot;:{&quot;name&quot;:&quot;RangeRight&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Icon"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1507647816509"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-icon"/></property>
+<!--                        <Event : Event>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlEvent" newPriority="1507647816509" priority="1507647816509"><property name="attrName"><java.lang.String value="(click)"/></property><property name="attrValue"><xmlizable classname="com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType"><MobileSmartSourceType>{"mode":"plain","value":"value"}</MobileSmartSourceType></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="eventName"><java.lang.String value="onClick"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Event"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1507647827143"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                           <CustomAction : CustomAction>                                                                                              --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIControlCustomAction" newPriority="1507647827143" priority="1507647827143"><property name="actionValue"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[    this.viewCtrl.dismiss();
+]]></com.twinsoft.convertigo.beans.common.FormatedContent></xmlizable></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="CustomAction"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property>
+<!--                           </CustomAction : CustomAction>                                                                                             --></mobilecomponent>
+<!--                        </Event : Event>                                                                                                              --></mobilecomponent>
+<!--                     </Dynamic Element : Icon>                                                                                                        --></mobilecomponent>
+<!--                     <Dynamic Element : TextFormat>                                                                                                   --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507648079647" priority="1507648079647"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;TextFormat&quot;,&quot;properties&quot;:{&quot;TextLeft&quot;:{&quot;name&quot;:&quot;TextLeft&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextRight&quot;:{&quot;name&quot;:&quot;TextRight&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextCenter&quot;:{&quot;name&quot;:&quot;TextCenter&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;text-center&quot;},&quot;TextJustify&quot;:{&quot;name&quot;:&quot;TextJustify&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextWrap&quot;:{&quot;name&quot;:&quot;TextWrap&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextNoWrap&quot;:{&quot;name&quot;:&quot;TextNoWrap&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextUpperCase&quot;:{&quot;name&quot;:&quot;TextUpperCase&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextLowerCase&quot;:{&quot;name&quot;:&quot;TextLowerCase&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false},&quot;TextCapitalize&quot;:{&quot;name&quot;:&quot;TextCapitalize&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="TextFormat"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="div"/></property>
+<!--                     </Dynamic Element : TextFormat>                                                                                                  --></mobilecomponent>
+<!--                  </Dynamic Element : BarTitle>                                                                                                       --></mobilecomponent>
+<!--               </Dynamic Element : NavBar>                                                                                                            --></mobilecomponent>
+<!--            </Dynamic Element : Header>                                                                                                               --></mobilecomponent>
+<!--            <Dynamic Element : Content>                                                                                                               --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507641704252" priority="1507641704252"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Content&quot;,&quot;properties&quot;:{&quot;IonPadding&quot;:{&quot;name&quot;:&quot;IonPadding&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;padding&quot;},&quot;Fullscreen&quot;:{&quot;name&quot;:&quot;Fullscreen&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:false}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Content"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><java.lang.Long value="1507641710168"/></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="ion-content"/></property>
+<!--               <Dynamic Element : Video>                                                                                                              --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UIDynamicElement" newPriority="1507641710168" priority="1507641710168"><property name="beanData"><java.lang.String value="{&quot;name&quot;:&quot;Video&quot;,&quot;properties&quot;:{&quot;src&quot;:{&quot;name&quot;:&quot;src&quot;,&quot;mode&quot;:&quot;script&quot;,&quot;value&quot;:&quot;url&quot;},&quot;width&quot;:{&quot;name&quot;:&quot;width&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;100%&quot;},&quot;height&quot;:{&quot;name&quot;:&quot;height&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;100%&quot;},&quot;control&quot;:{&quot;name&quot;:&quot;control&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;controls&quot;},&quot;autoplay&quot;:{&quot;name&quot;:&quot;autoplay&quot;,&quot;mode&quot;:&quot;plain&quot;,&quot;value&quot;:&quot;autoplay&quot;}}}"/></property><property name="comment"><java.lang.String value=""/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Video"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="selfClose"><java.lang.Boolean value="false"/></property><property name="tagName"><java.lang.String value="video"/></property>
+<!--               </Dynamic Element : Video>                                                                                                             --></mobilecomponent>
+<!--            </Dynamic Element : Content>                                                                                                              --></mobilecomponent>
+<!--         </Page : VideoPage>                                                                                                                          --></mobilecomponent>
 <!--         <Theme : Theme>                                                                                                                              --><mobilecomponent classname="com.twinsoft.convertigo.beans.mobile.components.UITheme" newPriority="1491635018260" priority="1491635018260"><property name="comment"><java.lang.String value="Global color themes can be customized here"/></property><property name="isEnabled"><java.lang.Boolean value="true"/></property><property name="name"><java.lang.String value="Theme"/></property><property name="orderedComponents"><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector><xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector"><com.twinsoft.convertigo.beans.common.XMLVector/></xmlizable></com.twinsoft.convertigo.beans.common.XMLVector></xmlizable></property><property name="styleContent"><xmlizable classname="com.twinsoft.convertigo.beans.common.FormatedContent"><com.twinsoft.convertigo.beans.common.FormatedContent><![CDATA[// Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/v2/theming/ 
 $font-path: "../assets/fonts";

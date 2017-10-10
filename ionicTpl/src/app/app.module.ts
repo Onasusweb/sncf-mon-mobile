@@ -44,7 +44,9 @@ export const deepLinkConfig: DeepLinkConfig = {
 	AgmCoreModule.forRoot({
 	      apiKey: 'AIzaSyB0Nl1dX0kEsB5QZaNf6m-tnb1N-U5dpXs'
 	}),
-    IonicModule.forRoot(MyApp, {}, deepLinkConfig)
+    IonicModule.forRoot(MyApp, {
+    pageTransition: 'ios-transition'
+    }, deepLinkConfig)
   ],
   bootstrap: [IonicApp],
   entryComponents: [MyApp,/*=c8o_PagesDeclarations*/],

@@ -30,6 +30,7 @@ export class /*=c8o_PageName*/ extends C8oPage  {
 	/*=c8o_PageDeclarations*/
 
 	public actionBeans: ActionBeans;
+	public static nameStatic: string = "/*=c8o_PageName*/";
 	/*Begin_c8o_PageDeclaration*/
 	/*End_c8o_PageDeclaration*/
 

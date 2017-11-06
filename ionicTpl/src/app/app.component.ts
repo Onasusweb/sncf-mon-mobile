@@ -40,16 +40,19 @@ export class MyApp {
     @ViewChild(Nav) nav: Nav;
     rootPage = /*=c8o_RootPage*/;
     pages : Array<{title: string, component: any, includedInAutoMenu?: boolean}>;
-	
-	/*Begin_c8o_AppDeclaration*/
+    pagesKeyValue: any;
+
+    /*Begin_c8o_AppDeclaration*/
 	/*End_c8o_AppDeclaration*/
 
     constructor(platform: Platform, statusBar: StatusBar, private c8o: C8o, private router: C8oRouter, private loader: LoadingController, private app: App) {
         /**
          * declaring page to show in Menu
          */
-        this.pages = [/*=c8o_PagesVariables*/]; 
+        this.pages = [/*=c8o_PagesVariables*/];
+        this.pagesKeyValue = {/*=c8o_PagesVariablesKeyValue*/}
         this.router.pagesArray = this.pages;
+        this.router.pagesKeyValue = this.pagesKeyValue;
 
 
         /* ============================================================================================================
